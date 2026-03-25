@@ -222,7 +222,7 @@ footer {
         /* 📍 Свойства для расположения элементов и отступа между ними */
         flex-direction: column-reverse;
         align-items: flex-start;
-        gap: 40px;
+        gap: 60px;
     }
 
     .main-image {
