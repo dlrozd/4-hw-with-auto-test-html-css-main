@@ -245,7 +245,7 @@ footer {
     .info-wrapper {
         /* 📍 Свойства для расположения 2-x списков и отступа между ними */
         flex-direction: column;
-        gap: 40px;
+        gap: 60px;
     }
 }
 
