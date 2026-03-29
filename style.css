@@ -9,7 +9,7 @@
     margin: 0px auto;
     max-width: 1180px;
     /* 📍 Свойство для внутрених отступов */
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 body {
@@ -146,7 +146,7 @@ form {
     margin-bottom: 40px;
     /* 📍 Свойства для расположения элементов (инпута и кнопки) и отступа между ними */
     display: flex;
-    gap: 12px;
+    gap: 10px;
 }
 
 .text-field {
@@ -253,22 +253,22 @@ footer {
 @media screen and (max-width: 576px) {
     .main-section {
         /* 📍 Внутренние отступы сверху и снизу */
-        padding: 40px 0;
+        padding: 30px 0 60px;
     }
 
     .main-section .wrapper {
         /* 📍 Отступ между изображением и блоком с текстом */
-        gap: 24px;
+        gap: 40px;
     }
 
     .main-title {
         /* 📍 Размер шрифта */
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .about-section .wrapper,
     .info-wrapper {
         /* 📍 Отступ между дочерними элементами */
-        gap: 32px;
+        gap: 50px;
     }
 }
